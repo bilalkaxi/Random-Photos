@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-container{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color:burlywood;
+    border-radius: 4px;
+
+}
+.image-container img {
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 3px 7px white;
+    
+}
+
+.btn{
+    color: brown;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    box-shadow: 1px 2px 5px rgb(0, 0, 0) ;
+    border: 1px solid rgb(5, 3, 3);
+    border-radius: 20px;
+    
+}
